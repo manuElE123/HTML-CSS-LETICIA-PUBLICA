@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+span {
+  color: #febe01;
+}
+h2 {
+  color: #fff;
+  margin: 0px;
+}
+p {
+  color: #b2b2b2;
+}
+.produto {
+  background: #111;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.botao {
+  background: #febe01;
+  color: #111;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}

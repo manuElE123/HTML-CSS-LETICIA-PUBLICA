@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgray;
+}
+h1{
+  margin: 0px;
+}
+header{
+  background-color: white;
+  padding: 8px;
+}
+nav{
+background-color:#5050;
+border-radius: 3px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+
+}
+ nav >a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+}
+section{
+  margin-top: 8px;
+  background-color: white;
+  padding: 8px;
+}
+article{
+  background-color: rgb(183, 182, 182);
+}
+footer{
+  background-color: white;
+  text-align: center;
+}
+aside{
+  background-color:rgb(183, 182, 182) ;
+  padding: 8px;
+  border-radius: 3px;
+}
+

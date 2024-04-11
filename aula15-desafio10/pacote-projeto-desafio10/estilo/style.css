@@ -1,0 +1,72 @@
+@font-face{
+font-family:'Android';
+src:url('../fontes/idroid.otf')format('opentype');
+font-weight: normal;
+
+}
+ 
+:root{
+  --cor0:#c5ebd6;
+  --cor1:#83e1ad;
+  --cor2:#3ddc84;
+  --cor3:#2fa866;
+  --cor4:#1a5c37;
+  --cor5:#063d1e;
+--fonte-padrao: Arial,verdana,helvetica, sans-serif;
+--fonte-destaque:'Babas Neue',cursive;
+--fonte-android:'Android',cursive;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+}
+body{
+  background-color:  #3ddc84;
+  font-family: var(--fonte-padrao);
+}
+header>p {
+color: white;
+text-align: center;
+}
+main{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  background-color:white;
+}
+nav{
+  background-color: var(--cor5);
+}
+
+header{
+  background-color: var(--cor4);
+  min-height: 150px;
+  text-align: center;
+}
+
+header>h1{
+  color:white;
+  font-family: var(--fonte-destaque);
+  text-align: center;
+  padding:30px ;
+}
+
+main h2{
+  font-family: var(--fonte-android);
+  padding:20px;
+}
+main > h1{
+  font-family: var(--fonte-android);
+}
+main img{
+  width: 100%;
+}
+main img.pequena{
+  width: 50%;
+  display: block;
+  padding: auto;
+}
+footer{
+  background-color: var(--cor5);
+  color: white;
+}
